@@ -30,3 +30,44 @@ nav {
   letter-spacing: -0.015em;
   padding: 0.18em;
 }
+
+.cards-list {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	background-color: #fffbf4;
+	border-radius: 10px;
+}
+
+.card {
+	color: #2B283A;
+	display: flex;
+	padding: 3em;
+}
+
+.card--image {
+  /* Rectangle 77 */
+
+	margin-right: 3em;
+  width: 28vh;
+	border-radius: 9px;
+	margin-bottom: 9px;
+
+}
+
+.title {
+  /* Norway */
+
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0.45em;
+
+
+}
+
+.location {
+  text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding-left: 0.4em;
+	padding-right: 1em;
+}
